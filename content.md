@@ -13,14 +13,11 @@ Logo, Program Membership Testimonials, About US, Contact US
 # 1. Hero
 
 Headline: Believe
-
-# 2. Features
+Quote:
 
 # 3. Programs
 
-Strength training, CrossFit training, cardio,zumba,personal training, HIIT training , group training,
-
-steambath , locker room,Dj music.
+Strength training, CrossFit training, cardio & hit,zumba,personal training, yoga
 
 # 4. Membership
 
@@ -31,6 +28,8 @@ Annual 8999
 
 # 5. Testimonials
 
+from google
+
 # 6. Footer
 
 Powerzone text logo
@@ -40,7 +39,10 @@ Social Media
 
 ## ABOUT US
 
-About us ( Manish Ace certified experience 8years , Immanuel Ace certified 10 years experience, gokul 3 years experience, Selva 5 years experience. Etc )
+January 27th 2022 -opening , within a year 1000+ clients, without pt we offer a lot of services, at the age of 13 - 70+ age group with concerns - treated accordingaly,
+Recently upgraded to another floor around february 2023 for crossfit, zumba, yoga. About us (Manish Ace certified experience 8years , Immanuel Ace certified 10 years experience, gokul 3 years experience, Selva 5 years experience. Etc )
+
+#
 
 ## CONTACT US
 
