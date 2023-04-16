@@ -82,8 +82,8 @@ h1 {
 /* ********* */
 
 .section-programs {
-  /* padding: 4.8rem; */
-  background-color: rgb(0, 0, 0);
+  padding: 4.8rem;
+  background-color: rgb(240, 140, 0, 0.5);
 }
 
 .program-heading-box {
@@ -123,10 +123,6 @@ h1 {
 /* ********* */
 
 .section-memberships {
-}
-
-.test {
-  /* border-radius: 11px; */
 }
 
 .plans-container {
@@ -174,4 +170,86 @@ h1 {
 
 .plan-btn {
   margin-top: auto;
+}
+
+/*
+TESTIMONIALS
+*/
+
+/*
+FOOTER
+*/
+.footer {
+  padding: 12.8rem 0;
+  background-color: #37383d;
+}
+
+.grid--footer {
+  grid-template-columns: 1.5fr 1fr 1.5fr;
+}
+
+.footer-logo-text {
+  display: block;
+  margin-bottom: 3.2rem;
+  font-size: 3.6rem;
+  text-decoration: none;
+  color: white;
+}
+
+.logo-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo {
+  display: block;
+  margin-bottom: 3.2rem;
+}
+
+.social-links {
+  list-style: none;
+
+  display: flex;
+  gap: 2.4rem;
+}
+
+.social-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+  color: orange;
+}
+
+.col-two-content {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.col-two-link,
+.col-three-link {
+  text-decoration: none;
+  color: white;
+
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.col-three-link {
+  margin-bottom: 4.8rem;
+}
+
+.contacts {
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  color: white;
+}
+.address {
+  font-size: 1.6rem;
+  margin-bottom: 2.4rem;
+}
+
+.address {
+  font-size: 1.6rem;
 }

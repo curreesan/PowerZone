@@ -23,10 +23,10 @@ large: 1.8
 
 ---02 COLORS
 
-Brand color: #fd7e14, #212529, #000, #fff
--primary: #e67e22 ,
+Brand color: #fe9413, #212529, #000, #fff
+-primary: #fe9413 ,
 
-Tints:
+Tints: #f9a540, #f7bd77
 Shades:
 Accents:
 Greys:
@@ -47,6 +47,7 @@ medium: 11px
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  /* border: 2px solid red; */
 }
 
 html {
@@ -57,7 +58,6 @@ html {
 body {
   line-height: 1;
   font-weight: 400;
-  columns: #555;
 }
 
 /* GENERAL REUSABLE COMPONENTS */
