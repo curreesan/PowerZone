@@ -23,8 +23,8 @@ large: 1.8
 
 ---02 COLORS
 
-Brand color: #fe9413, #212529, #000, #fff
--primary: #fe9413 ,
+Brand color: #fe9413, #212529, #000, #fff, #FE9B09
+-primary: #FE9B09 ,
 
 Tints: #f9a540, #f7bd77
 Shades:
@@ -43,6 +43,35 @@ medium: 11px
 - Spacing system (px)
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 */
+
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("../assets/fonts/bebas-neue-thin.otf");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("../assets/fonts/bebas-neue-light.otf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("../assets/fonts/bebas-neue-regular.otf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("../assets/fonts/bebas-neue-bold.otf");
+  font-weight: 700;
+  font-style: normal;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -59,6 +88,7 @@ body {
   line-height: 1;
   font-weight: 400;
   background-color: #111;
+  color: #fff;
 }
 
 /* GENERAL REUSABLE COMPONENTS */
@@ -114,43 +144,40 @@ body {
 }
 
 .subheading {
+  font-family: "Bebas Neue", sans-serif;
   display: block;
-  font-size: 4.4rem;
+  font-size: 3.2rem;
   font-weight: 700;
-  color: #cf711f;
+  color: #fe9b09;
   text-transform: uppercase;
   margin-bottom: 1.6rem;
-  padding-top: 9.6rem;
-  letter-spacing: -0.25rem;
+  padding-top: 12.8rem;
+  letter-spacing: 0.25rem;
 }
 
 .heading-primary,
 .heading-secondary,
 .heading-tertiary {
+  font-family: "Bebas Neue", sans-serif;
   font-weight: 700;
-  letter-spacing: -0.5px;
-  color: #333;
 }
 
 .heading-primary {
-  font-size: 5.2rem;
+  font-size: 5.6rem;
   line-height: 1.05;
   margin-bottom: 3.2rem;
 }
 
 .heading-secondary {
-  font-size: 4.4rem;
+  font-size: 4.8rem;
   line-height: 1.2;
-  text-transform: uppercase;
-
-  color: whitesmoke;
+  margin-bottom: 9.6rem;
 }
 
 .heading-tertiary {
   font-size: 3rem;
   line-height: 1.2;
-
-  margin-bottom: 9.6rem;
+  text-transform: uppercase;
 }
 
 .btn,
@@ -160,7 +187,7 @@ body {
   font-size: 2rem;
   font-weight: 600;
   padding: 1.6rem 3.2rem;
-  border-radius: 999px;
+  border-radius: 1rem;
 
   /* only necessary for btn */
   border: none;
